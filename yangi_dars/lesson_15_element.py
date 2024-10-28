@@ -40,4 +40,4 @@ print('Do\'kondagi mahsulotlar:')
 for mahsulot in mahsulotlar.keys():
     print(mahsulot.title())
 
-https://github.com/UlugbekXatamjonov/python-darslari.git
+# https://github.com/UlugbekXatamjonov/python-darslari.git
