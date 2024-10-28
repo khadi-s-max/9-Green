@@ -59,18 +59,6 @@ for key,value in taomlar.items():
     print(f"{key.title()} ning sevimli taomi {value.title()}")
 
 
-davlatlar = {
-    'uzbekistan':"Tashkent",
-    'usa':"Vashington",
-    'russian':"Russian",
-}
-savol = input("Davlat nomini kiriting: ").lower()
-if savol in davlatlar:
-    print(f"Siz so'ragan {savol.upper()}ning poytaxti {davlatlar[savol].title()}")
-else:
-    print(f"Siz so'ragan {savol.title()} haqida bizda malumot yo'q")
-
-
 
 
 
