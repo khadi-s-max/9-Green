@@ -41,3 +41,4 @@ for mahsulot in mahsulotlar.keys():
     print(mahsulot.title())
 
 # https://github.com/UlugbekXatamjonov/python-darslari.git
+# hyyggg
