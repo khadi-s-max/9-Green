@@ -26,7 +26,7 @@ for n in range(s):
 print("Biz aylanani tugattik!")
 
 
-d=input("O;tirsak bo;ladimi ").lower() 
+d=input("O'tirsak bo;ladimi ").lower() 
 if d=="ha":
     print("rahmat")
             

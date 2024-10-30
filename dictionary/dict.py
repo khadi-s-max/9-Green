@@ -354,3 +354,21 @@ else:
     print(f"Bizda bu haqida malumootlar berilmagan ")
 
 
+
+"""9-mashq"""
+gren_9={
+    "raxima":"toxirova",
+    "naima":"malikova",
+    "hadicha":"botirova",
+    "sarvinoz":"olimjanova",
+    "moxlaroy":"maxmudova",
+    "oy_tovoq":"madaminova",
+    "oydina":"mamadova",
+    "mubina":"fazliddinova",
+    "muhammadyusuf":"obidjanov",
+    "abdulahad":"ubaydullayev"
+}
+quiz=input("ism yoki familya kiriting : ").lower()
+for name,surname in gren_9.items():
+    if quiz==name:
+        print(f"{name}")
