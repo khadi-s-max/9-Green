@@ -61,7 +61,7 @@
 #         print(f"{savol} ning kvadrati {int(savol)**2} ga teng ")
         
 
-"""parol"""
+# """parol"""
 # parol=input("oz parolingizni kiriting: ")
 # while True:
 #     parol1=input("parolni kiriting: ")
@@ -72,7 +72,7 @@
 #     else:
 #         print("parol xato")
             
-"""parol o'rnatish"""
+# """parol o'rnatish"""
 
 
 
@@ -99,20 +99,59 @@
 
 
 
+# """yoshi va yilini hisoblash"""
+# while True:
+#     yosh=input("yoshingizni kiriting: \"Chiqish uchun exit deb yozing\"")
+#     if yosh!="exit":
+#         yosh1=int(yosh)
+#         if yosh>=0 or yosh<=110:
+#             print(f"Siz {yosh} dasiz va {2024-yosh} yilda tug'ulgansiz")
+#         else:
+#             print("Siz xato son kiritdingiz!!!!!")
+#     elif yosh=="exit":
+#         print("dastur tugatildi")
+#         break
+#     else:
+#         print("Siz son kiritmadingiz!!!")
+# ismlar=[]
+
+# while True:
+#     ismlar.append(input("ism kiriting : "))
+#     savol=input("dasturdann  chiqishni xoxlaysanmi:  (xa\yo'q)  ").lower()
+#     if savol=="xa" or savol=="ha":
+#         print("dastur tugatildi")
+#         break
+#     elif savol=="yo'q":
+#         print("davom etamiz")
+
+
+# while True:
+#     son=int(input("son kiriting : "))
+#     print(f"Siz kiritgan {son} ning kvadrati {son**2} ga teng  ")
+#     savol1=input("dasturdann  chiqishni xoxlaysanmi:  (xa\yo'q)  ").lower()
+#     if savol1=="xa" or savol1=="ha":
+#         print("dastur tugatildi")
+#         break
+#     elif savol1=="yo'q":
+#         print("davom etamiz")
+
+
+    
 """yoshi va yilini hisoblash"""
 while True:
-    yosh=input("yoshingizni kiriting: \"Chiqish uchun exit deb yozing\"")
+    yosh=input("yoshingizni kiriting: \"Chiqish uchun exit yoki quit deb yozing\"")
     if yosh!="exit":
         yosh1=int(yosh)
-        if yosh>=0 or yosh<=110:
-            print(f"Siz {yosh} dasiz va {2024-yosh} yilda tug'ulgansiz")
+        if yosh1>=0 or yosh1<=110:
+            print(f"Siz {yosh1} dasiz va {2024-yosh1} yilda tug'ulgansiz")
         else:
             print("Siz xato son kiritdingiz!!!!!")
-    elif yosh=="exit":
+    elif yosh=="exit" or yosh=="quit":
         print("dastur tugatildi")
-        break
-    else:
-        print("Siz son kiritmadingiz!!!")
+
+
+
+
 
 
             
