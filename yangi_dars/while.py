@@ -138,16 +138,65 @@
 
     
 """yoshi va yilini hisoblash"""
+# while True:
+#     yosh=input("yoshingizni kiriting: \"Chiqish uchun exit yoki quit deb yozing\"").lower()
+#     if yosh!="exit":
+#         yosh1=int(yosh)
+#         if yosh1>=0 or yosh1<=110:
+#             print(f"Siz {yosh1} dasiz va {2024-yosh1} yilda tug'ulgansiz")
+#         else:
+#             print("Siz xato son kiritdingiz!!!!!")
+#     elif yosh=="exit" or yosh=="quit":
+#         print("dastur tugatildi")
+
+""" 
+Vazifa
+1) Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. 
+    Foydalanuvchi stop so'zini yozishi bilan dasturni to'xtating.
+
+    
+2) Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 
+7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. 
+Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va 
+chipta narhini chiqarsin. Foydalanuvchi exit yoki quit deb yozganda dastur 
+to'xtasin (ikkita shartni ham tekshiring). Yuqoridagi dasturni turli usullarda
+yozib ko'ring (break, ishora)
+
+
+3) Quyidagi dasturda bir nechta mantiqiy xatolar bor. 
+Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib qolmoqda. Xatolarni to'g'rilay olasizmi?
+savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+savol += "Musbat son kiriting "
+savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
 while True:
-    yosh=input("yoshingizni kiriting: \"Chiqish uchun exit yoki quit deb yozing\"")
-    if yosh!="exit":
-        yosh1=int(yosh)
-        if yosh1>=0 or yosh1<=110:
-            print(f"Siz {yosh1} dasiz va {2024-yosh1} yilda tug'ulgansiz")
-        else:
-            print("Siz xato son kiritdingiz!!!!!")
-    elif yosh=="exit" or yosh=="quit":
-        print("dastur tugatildi")
+    qiymat = input(savol)
+    if qiymat<0:
+        continue
+    elif qiymat=='Exit':
+        break
+    else:
+        ildiz = float(qiymat)**(0.5)
+        print(f"{qiymat} ning ildizi {ildiz} ga teng")
+4) Foydalanuvchidan tizimga kirishi uchun parol so'rang, foydalanuvchi to'gri javob 
+kiritsa unga 'hush keib siz' degan habar chiqsinva dastur to'xtasim. 
+Agar foydalanuvchi 3 marta xato parol kiritsa uni abadiy tsiklga tushurib qo'ying.  
+5) Online bozor loyihasini qiling. Avvaliga foydalanuvchiga do'koningizdagi mahsulotlarni nomi va narxini ko'rsating,
+song foydalanuvchidan nima olishini so'rang, keyin xaridni davom etirasizmi yoki yo'q deb so'rang
+agar ha desa yana mahsulot nomini so'rang, agar yoq dasa jarayoni tugatib, sotib olgan mahsulotlari va 
+ularning narxini ko'rsating. 
+6) 1 dan 100 gacha bo'lgan toq sonlar yig'indisini toping.
+"""
+
+""" 
+2) Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 
+7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. 
+Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va 
+chipta narhini chiqarsin. Foydalanuvchi exit yoki quit deb yozganda dastur 
+to'xtasin (ikkita shartni ham tekshiring). Yuqoridagi dasturni turli usullarda
+yozib ko'ring (break, ishora)
+"""
+
+
 
 
 
