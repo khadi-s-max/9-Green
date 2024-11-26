@@ -198,6 +198,38 @@ yozib ko'ring (break, ishora)
 
 
 
+"""5-mashq"""
+# while True:
+#     son=input("son kiriting \'chiqish deb yozing \' : ")
+#     if son=="chiqish":
+#         print("dastur tugadi!")
+#         break
+
+#     if son.isdigit():
+#         son1=int(son)
+#         if son%2==0:
+#             print(f"bu son juft : {son1}")
+#         elif son%3==1:
+#             print(f"bu son toq : {son1}")
+#     else:
+#         print(f"faqat son yoki 'chiqish' deb kiriting ")
+
+x=0
+parol= 1012
+while True:
+    prl=input("dastur uchun parol kiriting: ")
+    
+    if prl==parol:
+        print("xush kebsiz")
+        break
+    x+=1
+    if x>=3:
+        while True:
+             print(f"{x} parol xato siz bloklandiz")
+        
+
+
+
 
 
 
