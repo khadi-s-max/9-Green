@@ -12,13 +12,16 @@ class Avto:
         self.narh=narh
         self.km=km
 
-    def get_info(self):
-        """mashinani malumotini beradi """
-        info=f"mashinani malumotlari \n {self.model} \n {self.model} \n {self.rang} " 
-        return info 
+    def modell(self):
+        modelll=f"mashina modeli : {self.model} \n mashina yili:  {self.narh}"
+        return modelll
+    # def get_info(self):
+    #     """mashinani malumotini beradi """
+    #     info=f"mashinani malumotlari \n {self.model} \n {self.model} \n {self.rang} " 
+    #     return info 
    
 
-avto1=Avto("GM","damas","oq",2024,96000000)
-print(avto1.get_info())
+avto1=Avto("GM","damas","oq",96.000,2024)
+print(avto1.modell())
 
 

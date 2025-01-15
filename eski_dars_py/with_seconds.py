@@ -21,4 +21,4 @@ print(shaxar.lower()) #barcha xarfini kichik qilib chiqaradi
 print(shaxar) 
 print(shaxar.strip())                               
 print(shaxar.lstrip())                               
-print(shaxar.rstrip())                               
+print(shaxar.rstrip())
