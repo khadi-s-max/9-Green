@@ -75,3 +75,5 @@ def tk(yil, oy, kun)-> str:
         return f"siz tugilganizga {yil} yil va {kun.days} kun bo'ldi "
 
 print(tk(2000,1,1)) # 1999 yil yashagan
+
+
